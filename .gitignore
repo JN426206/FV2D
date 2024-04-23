@@ -1,0 +1,12 @@
+clips/*
+yolov5/yolov5*
+yolov5/runs/*
+*__pycache__*
+yolov5/sportsfield_release/out/pretrained*
+.vscode
+yolov5/.dockerignore
+yolov5/Dockerfile
+yolov5/debug*
+yolov5/.ipynb_checkpoints
+ncexclude
+/data/

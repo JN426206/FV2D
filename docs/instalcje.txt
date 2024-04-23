@@ -1,0 +1,25 @@
+Add to user path conda binaries ie: d:\anaconda3\Scripts\
+restart cmd and/or visual studio
+In visual studio change settings like on the picture Konfiguracja visual studio code z conda.png
+In visual studio terminal (power shell) run command: conda init powershell
+
+Windows & Linux:
+
+conda install python-lmdb
+
+Windows:
+pip install opencv-python
+
+linux:
+pip install opencv-python
+pip install opencv-contrib-python
+
+Old:
+conda create -n caffe python=3.7
+REM activate the environment REM Depending on your conda version you may have to use activate caffe
+conda activate caffe
+REM add the anaconda channel to resolve all dependencies
+conda config --add channels anaconda
+REM Install caffe with cuda support or install caffe-cpu if you do not want CUDA support
+conda install caffe -c willyd
+conda install python-lmdb

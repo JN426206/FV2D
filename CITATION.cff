@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: FV2D - Fotball video to 2 dimensionnal pitch
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Jan Nowak
+    email: 95jan.nowak@gmail.com
+    affiliation: 'Adam Mickiewicz University in Poznań: Poznan, PL '
+    orcid: 'https://orcid.org/0009-0001-9764-4798'
+  - given-names: Zofia Galla
+    email: gallazofia@gmail.com
+    affiliation: 'Adam Mickiewicz University in Poznań: Poznan, PL'
+  - given-names: Krzysztof Dyczkowski
+    affiliation: 'Adam Mickiewicz University in Poznań: Poznan, PL'
+    orcid: 'https://orcid.org/0000-0002-2897-3176'
+repository-code: 'https://github.com/JN426206/FV2D'
+abstract: >-
+  Narzędzie pozwalające przetestować dokładność szacowania
+  zawodników oraz piłki na nagraniu lub zdjęciu z meczu
+  piłki nożnej przez różnego rodzaju algorytmy detekcji
+  obiektów wykorzystywane w widzeniu komputerowym.
+keywords:
+  - computer vision
+  - artificial intelligence
+  - football
+license: Apache-2.0
